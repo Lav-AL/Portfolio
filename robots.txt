@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://lav-al.github.io/Portfolio/sitemap.xml
