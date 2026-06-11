@@ -254,13 +254,17 @@ document.addEventListener('DOMContentLoaded', () => {
   const skillCards = document.querySelectorAll('.skill-card');
   const skillColors = {
     'python': { color: '#3776ab', shadow: 'rgba(55, 118, 171, 0.25)' },
+    'kotlin': { color: '#7f52ff', shadow: 'rgba(127, 82, 255, 0.25)' },
     'android studio': { color: '#3ddc84', shadow: 'rgba(61, 220, 132, 0.25)' },
-    'google ai studio': { color: '#4285f4', shadow: 'rgba(66, 133, 244, 0.25)' },
-    'google cloud': { color: '#ea4335', shadow: 'rgba(234, 67, 53, 0.25)' },
-    'salesforce': { color: '#00a1e0', shadow: 'rgba(0, 161, 224, 0.25)' },
-    'generative ai': { color: '#a855f7', shadow: 'rgba(168, 85, 247, 0.25)' },
+    'jetpack compose': { color: '#4285f4', shadow: 'rgba(66, 133, 244, 0.25)' },
+    'machine learning': { color: '#a855f7', shadow: 'rgba(168, 85, 247, 0.25)' },
+    'computer vision': { color: '#10b981', shadow: 'rgba(16, 185, 129, 0.25)' },
+    'yolov8': { color: '#ea4335', shadow: 'rgba(234, 67, 53, 0.25)' },
+    'firebase': { color: '#ffca28', shadow: 'rgba(255, 202, 40, 0.25)' },
+    'google cloud': { color: '#4285f4', shadow: 'rgba(66, 133, 244, 0.25)' },
+    'room database': { color: '#00a1e0', shadow: 'rgba(0, 161, 224, 0.25)' },
     'antigravity': { color: '#10b981', shadow: 'rgba(16, 185, 129, 0.25)' },
-    'google skills': { color: '#f4b400', shadow: 'rgba(244, 180, 0, 0.25)' }
+    'github': { color: '#ffffff', shadow: 'rgba(255, 255, 255, 0.25)' }
   };
 
   skillCards.forEach(card => {
